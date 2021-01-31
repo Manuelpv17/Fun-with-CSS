@@ -1,0 +1,34 @@
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  text-align: center;
+  border: 2px solid gray;
+  border-radius: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+.icon {
+  display: block;
+  width: 286px;
+  height: 375px;
+  margin: 20px;
+}
+
+.i-html {
+  background: url("images/sprite.png") 0 0;
+}
+
+.i-css {
+  background: url("images/sprite.png") -286px 0;
+}
+
+.i-js {
+  background: url("images/sprite.png") -573px 0;
+}
