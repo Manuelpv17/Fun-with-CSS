@@ -32,11 +32,13 @@
 .toggle-inner::before {
   content: "";
   transition: color 0.4s;
+  margin-right: 10px;
 }
 
 .toggle-inner::after {
   content: "No";
   transition: color 0.4s;
+  margin-left: 10px;
 }
 
 .toggle-switch {
